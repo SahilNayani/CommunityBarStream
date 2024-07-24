@@ -5,10 +5,10 @@
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {
-  },
+  "assets": {},
   "color_schemes": {
     "BarStream-light": {
+      "white": "#ffffff",
       "primary": "454545",
       "secondary": "FEF9F2",
       "tertiary": "5B21B6",
@@ -37,5 +37,5 @@
       "love": "fa6c8d"
     }
   },
-  "modifiers": {
-  }}
+  "modifiers": {}
+}

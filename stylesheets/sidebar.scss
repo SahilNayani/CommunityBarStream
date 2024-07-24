@@ -7,32 +7,22 @@
 #main-outlet-wrapper {
   .sidebar-wrapper {
     background-color: var(--primary-very-low);
-    margin-top: 1em;
-    box-shadow: 4px 4px 0px rgb(0, 0, 0);
-    outline: 1px solid rgb(0, 0, 0);
-    outline-offset: -1px;
-    border-radius: var(--mint-border-radius);
     height: calc(
       var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 3em
     );
     top: calc(var(--header-offset) + 1em);
-}
-
-.sidebar-container {
+  }
+  .sidebar-container {
     border: none;
-}
-
-/* Media query for screens with a width of 767px and below */
-@media (max-width: 767px) {
+  }
+  /* Media query for screens with a width of 767px and below */
+  @media (max-width: 767px) {
     .sidebar-wrapper {
-        border: none; /* Removes border */
-        box-shadow: none; /* Removes box-shadow */
+      border: none; /* Removes border */
+      box-shadow: none; /* Removes box-shadow */
     }
+  }
 }
-
-}
-
-
 .sidebar-footer-wrapper {
   border: 1px solid rgb(0, 0, 0);
   background: transparent!important;
