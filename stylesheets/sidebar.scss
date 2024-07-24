@@ -6,7 +6,7 @@
 
 #main-outlet-wrapper {
   .sidebar-wrapper {
-    background-color: var(--primary-very-low);
+    background-color: var(--header_background);
     height: calc(
       var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 3em
     );
