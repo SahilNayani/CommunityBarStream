@@ -1,0 +1,41 @@
+{
+  "name": "Barstream",
+  "component": false,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "BarStream-light": {
+      "primary": "454545",
+      "secondary": "FEF9F2",
+      "tertiary": "5B21B6",
+      "quaternary": "FFCC91",
+      "header_background": "ffffff",
+      "header_primary": "111111",
+      "highlight": "ffff4d",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d",
+      "selected": "e3efec",
+      "hover": "e3efec"
+    },
+    "BarStream-dark": {
+      "primary": "454545",
+      "secondary": "f6fbfc",
+      "tertiary": "4f8a7c",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "111111",
+      "highlight": "ffff4d",
+      "selected": "e3efec",
+      "hover": "e3efec",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
+  },
+  "modifiers": {
+  }}

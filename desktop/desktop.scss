@@ -1,0 +1,17 @@
+@import "variables";
+
+body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
+  border-radius: var(--mint-border-radius);
+  box-shadow: 4px 4px 0 0 rgb(0, 0, 0);
+  padding: 2em;
+  @include mint-card-bg;
+  border: 1px solid black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.boxed {
+  &.white {
+    @include mint-card-bg;
+  }
+}
