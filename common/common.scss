@@ -10,9 +10,11 @@
 :root {
   --d-input-border-radius: var(--mint-border-radius);
 }
+
 html {
   background-color: #F5F3FF;
 }
+
 .d-header {
   height: 5em;
   box-shadow: none;
@@ -34,6 +36,7 @@ body.has-sidebar-page #main-outlet-wrapper.wrap {
 .custom-homepage-columns {
   margin: 2em 0 2em 0;
   padding: 0;
+
   .col {
     position: relative;
     border-radius: var(--mint-border-radius);
@@ -42,16 +45,20 @@ body.has-sidebar-page #main-outlet-wrapper.wrap {
     border-top: 8px solid var(--tertiary);
     box-shadow: 0 8px 60px 0 rgba(103, 151, 255, 0.1),
       0 12px 90px 0 rgba(133, 255, 103, 0.1);
+
     .header-wrapper {
       background-color: transparent;
+
       a h2 {
         color: var(--primary);
       }
+
       .btn-primary {
         display: none;
         border: 1px solid rgb(0, 0, 0) !important;
       }
     }
+
     .btn-more {
       color: var(--secondary);
       background: var(--tertiary);
@@ -59,6 +66,7 @@ body.has-sidebar-page #main-outlet-wrapper.wrap {
       border-radius: var(--mint-border-radius);
       text-transform: uppercase;
       border: 1px solid var(--tertiary);
+
       &:hover {
         color: var(--secondary);
         background: var(--tertiary-hover);
@@ -79,10 +87,11 @@ body.has-sidebar-page #main-outlet-wrapper.wrap {
 }
 
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
-    box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
+  box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
   border: 1px solid rgb(0, 0, 0) !important;
   display: block !important;
 }
+
 .category-box-inner {
   @include mint-card-bg;
 }
@@ -110,7 +119,6 @@ body.has-sidebar-page #main-outlet-wrapper.wrap {
 
 .search-menu .search-input {
   border: 1px solid rgb(0, 0, 0);
-
 }
 
 .menu-panel .d-label {
@@ -137,13 +145,16 @@ a {
     background: var(--secondary);
     border-radius: var(--mint-border-radius);
     box-shadow: 0px 2px 3px 0px rgba(2, 47, 57, 0.14);
+
     .category-box-inner {
       border: none;
       padding: 0;
+
       .category-details {
         padding: 2em;
       }
     }
+
     &:hover {
       box-shadow: 0px 40px 30px 0px rgba(2, 47, 57, 0.1);
       transform: translateY(-2px);
@@ -172,15 +183,18 @@ a {
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
   border: 1px solid rgb(0, 0, 0);
+
   .fa {
     color: var(--secondary);
   }
+
   &:hover {
     background: var(--tertiary);
     color: var(--secondary);
     box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
     transition: all 0.3s linear;
     border-radius: var(--mint-border-radius);
+
     .fa {
       color: var(--secondary);
     }
@@ -196,6 +210,7 @@ a {
     background: transparent;
     border-radius: none;
     border: none;
+
     &:hover {
       background: var(--tertiary);
       border-radius: 0;
@@ -213,6 +228,7 @@ a {
   svg {
     color: var(--tertiary);
   }
+
   &:hover {
     background: var(--tertiary);
     color: var(--secondary);
@@ -221,6 +237,7 @@ a {
 
 .nav-pills li a {
   border-radius: var(--mint-border-radius);
+
   &:hover {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
@@ -228,6 +245,7 @@ a {
     color: var(--tertiary);
     border: 1px dashed var(--tertiary);
   }
+
   &.active {
     border-radius: var(--mint-border-radius);
     transition: all 0.3s linear;
@@ -235,10 +253,10 @@ a {
     color: var(--secondary);
     border: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
-}
-
-
   }
+
+
+}
 
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
@@ -247,24 +265,26 @@ a {
   border: 1px solid rgb(0, 0, 0) !important;
   padding: 1 !important;
   color: var(--secondary);
+
   svg {
     color: var(--secondary);
+
     &:hover {
       color: var(--secondary);
     }
   }
 }
 
-.d-editor-button-bar
-  .select-kit.dropdown-select-box
-  .dropdown-select-box-header {
+.d-editor-button-bar .select-kit.dropdown-select-box .dropdown-select-box-header {
   background: transparent;
   color: var(--secondary);
   border: 1px solid rgb(0, 0, 0) !important;
   border-radius: 0;
+
   svg {
     color: currentColor;
   }
+
   &:hover {
     color: var(--secondary);
     background: var(--tertiary-hover);
@@ -282,21 +302,26 @@ a {
 .discourse-no-touch .btn:not(.btn-flat).btn-hover {
   color: var(--secondary);
   background: var(--tertiary-hover);
+
   .fa {
     color: var(--secondary);
   }
 }
+
 html.has-full-page-chat body #main-outlet .full-page-chat {
   border-radius: 12px;
 }
+
 .c-navbar-container {
   border-radius: 12px;
- 
+
 }
+
 .sidebar-section-link-wrapper .sidebar-section-link.active {
   outline: 1px solid rgb(0, 0, 0);
   outline-offset: -1px;
 }
+
 .menu-panel .widget-link:hover,
 .menu-panel .widget-link:focus,
 .menu-panel .categories-link:hover,
@@ -312,8 +337,9 @@ html.has-full-page-chat body #main-outlet .full-page-chat {
   text-transform: uppercase;
   border: 1px solid rgb(0, 0, 0);
   padding: 10px 15px;
+
   .fa {
-    // color: var(--secondary);
+    color: currentColor;
   }
 }
 
@@ -352,6 +378,7 @@ a:hover {
 
 .image-upload-controls .btn-default {
   border: 1px solid var(--secondary);
+
   .fa {
     color: var(--secondary);
   }
@@ -360,10 +387,11 @@ a:hover {
 .admin-controls,
 .email-template,
 .admin-container {
-  .nav-pills > li a.active {
+  .nav-pills>li a.active {
     background: var(--tertiary);
     color: var(--secondary);
   }
+
   .btn-primary {
     border-radius: var(--mint-border-radius);
     border: 1px solid rgb(0, 0, 0) !important;
@@ -372,13 +400,11 @@ a:hover {
 
 .custom-search-banner-wrap {
   border-radius: var(--mint-border-radius);
-    box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
+  box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
   border: 1px solid rgb(0, 0, 0);
-  background: linear-gradient(
-    270deg,
-    var(--tertiary-medium) 0%,
-    var(--tertiary) 100%
-  );
+  background: linear-gradient(270deg,
+      var(--tertiary-medium) 0%,
+      var(--tertiary) 100%);
 }
 
 .custom-search-banner-wrap h1,
@@ -399,6 +425,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     background: var(--tertiary);
     color: var(--secondary);
   }
+
   .search-advanced-filters {
     border: 1px dashed var(--tertiary);
   }
@@ -414,6 +441,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 .mint-component-extensions {
+
   .search-banner,
   .showcased-topic-list {
     display: block;
