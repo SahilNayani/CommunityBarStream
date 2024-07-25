@@ -23,6 +23,10 @@ html {
   border-radius: 8px;
 }
 
+body.has-sidebar-page #main-outlet-wrapper.wrap {
+  max-width: 100%;
+}
+
 .alert.alert-info {
   border-radius: 10px;
 }
@@ -278,8 +282,6 @@ a {
 .discourse-no-touch .btn:not(.btn-flat).btn-hover {
   color: var(--secondary);
   background: var(--tertiary-hover);
-  border-radius: 8px;
-  padding: 10px 15px;
   .fa {
     color: var(--secondary);
   }
@@ -309,8 +311,9 @@ html.has-full-page-chat body #main-outlet .full-page-chat {
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
   border: 1px solid rgb(0, 0, 0);
+  padding: 10px 15px;
   .fa {
-    color: var(--secondary);
+    // color: var(--secondary);
   }
 }
 
