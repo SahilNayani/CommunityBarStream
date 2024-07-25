@@ -70,6 +70,7 @@ html {
 }
 
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box {
+    box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
   border: 1px solid rgb(0, 0, 0) !important;
   display: block !important;
 }
@@ -80,6 +81,7 @@ html {
 .navigation-topics {
   .container.list-container {
     border-radius: var(--mint-border-radius);
+    box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
     padding: 2em;
     @include mint-card-bg;
     border: 1px solid rgb(0, 0, 0);
@@ -167,6 +169,7 @@ a {
   &:hover {
     background: var(--tertiary);
     color: var(--secondary);
+    box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
     transition: all 0.3s linear;
     border-radius: var(--mint-border-radius);
     .fa {
@@ -360,6 +363,7 @@ a:hover {
 
 .custom-search-banner-wrap {
   border-radius: var(--mint-border-radius);
+    box-shadow: 0px 4px 6px -1px #0000001A, 0px 2px 4px -2px #0000001A;
   border: 1px solid rgb(0, 0, 0);
   background: linear-gradient(
     270deg,
