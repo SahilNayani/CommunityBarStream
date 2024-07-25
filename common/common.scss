@@ -278,6 +278,8 @@ a {
 .discourse-no-touch .btn:not(.btn-flat).btn-hover {
   color: var(--secondary);
   background: var(--tertiary-hover);
+  border-radius: 8px;
+  padding: 10px 15px;
   .fa {
     color: var(--secondary);
   }
