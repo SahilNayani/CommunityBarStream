@@ -335,7 +335,7 @@ html.has-full-page-chat body #main-outlet .full-page-chat {
   transition: all 0.3s linear;
   border-radius: var(--mint-border-radius);
   text-transform: uppercase;
-  border: 1px solid rgb(0, 0, 0);
+  border: 0 none;
   padding: 10px 15px;
 
   .fa {
@@ -345,7 +345,7 @@ html.has-full-page-chat body #main-outlet .full-page-chat {
 
 .btn-primary {
   border-radius: var(--mint-border-radius);
-  border: 1px solid rgb(0, 0, 0) !important;
+  border: 0 none !important;
 }
 
 .discourse-no-touch .btn-danger:hover {
