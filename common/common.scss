@@ -46,6 +46,13 @@ html {
 .d-header-icons {
   li {
     font-size: 11px;
+    .icon {
+      color: var(--primary);
+      &:hover {
+        background-color: transparent;
+        color: var(--tertiary);
+      }
+    }
   }
 }
 
