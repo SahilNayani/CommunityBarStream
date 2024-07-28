@@ -63,13 +63,21 @@ body.has-sidebar-page {
     grid-template-columns: var(--left-penal-size) minmax(0, 1fr);
     gap: 0 20px;
     max-width: 100%;
-    padding: 0 !important;
+    padding: 0 20px 0 0 !important;
     .sidebar-wrapper {
       height: 100vh;
       width: var(--left-penal-size);
       top: 0;
     }
   }
+}
+
+body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
+  padding: 20px;
+  background: var(--header_background);
+  margin-top: 104px;
+  margin-bottom: 1em;
+  margin-left: 2px;
 }
 
 .alert.alert-info {
