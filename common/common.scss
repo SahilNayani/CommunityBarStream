@@ -73,11 +73,11 @@ body.has-sidebar-page {
 }
 
 body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
-  padding: 20px;
-  background: var(--header_background);
-  margin-top: 104px;
-  margin-bottom: 1em;
-  margin-left: 2px;
+  padding: 20px !important;
+  background: var(--header_background) !important;
+  margin-top: 104px !important;
+  margin-bottom: 1em !important;
+  margin-left: 2px !important;
 }
 
 .alert.alert-info {
