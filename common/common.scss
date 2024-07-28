@@ -48,10 +48,13 @@ html {
     font-size: 11px;
     .icon {
       color: var(--primary);
+      .d-icon {
+        color: var(--primary);
+      }
       &:hover {
         background-color: transparent !important;
         .d-icon {
-          color: var(--tertiary);
+          color: var(--tertiary) !important;
         }
       }
     }
