@@ -49,15 +49,22 @@ html {
     .icon {
       color: var(--primary);
       &:hover {
-        background-color: transparent;
-        color: var(--tertiary);
+        background-color: transparent !important;
+        .d-icon {
+          color: var(--tertiary);
+        }
       }
     }
   }
 }
 
-body.has-sidebar-page #main-outlet-wrapper.wrap {
-  max-width: 100%;
+body.has-sidebar-page {
+  #main-outlet-wrapper.wrap {
+    max-width: 100%;
+    .sidebar-wrapper {
+      height: 100vh;
+    }
+  }
 }
 
 .alert.alert-info {
