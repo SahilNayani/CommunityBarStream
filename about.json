@@ -9,7 +9,7 @@
   "color_schemes": {
     "BarStream-light": {
       "primary": "454545",
-      "secondary": "FEF9F2",
+      "secondary": "ffffff",
       "tertiary": "5B21B6",
       "quaternary": "FFCC91",
       "header_background": "ffffff",
@@ -18,8 +18,8 @@
       "danger": "991B1B",
       "success": "065F46",
       "love": "fa6c8d",
-      "selected": "e3efec",
-      "hover": "e3efec"
+      "selected": "5B21B6",
+      "hover": "7C3AED"
     },
     "BarStream-dark": {
       "primary": "454545",

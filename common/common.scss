@@ -14,15 +14,39 @@
 html {
   background-color: #F5F3FF;
 }
-
-.d-header {
-  height: 5em;
-  box-shadow: none;
+.d-header-wrap {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: calc(100vw - 272px - 40px - 20px);
+  padding: 20px;
 }
 
+.d-header {
+  height: 4em;
+  box-shadow: none;
+  border-radius: var(--mint-border-radius);
+}
+.d-header #site-logo {
+  height: 34px;
+}
+.header-sidebar-toggle button {
+  font-size: 11px;
+  color: #fff;
+}
+.header-sidebar-toggle button:focus:hover, 
+.discourse-no-touch .header-sidebar-toggle button:hover {
+  background-color: transparent;
+}
 .d-header-mode .bootstrap-mode {
-  padding: 10px 32px;
-  border-radius: 8px;
+  padding: 5px 8px;
+  border-radius: var(--mint-border-radius);
+  font-size: 12px;
+}
+.d-header-icons {
+  li {
+    font-size: 11px;
+  }
 }
 
 body.has-sidebar-page #main-outlet-wrapper.wrap {
