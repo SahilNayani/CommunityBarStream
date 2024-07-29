@@ -109,6 +109,10 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
       font-size: 20px;
       margin-right: 14px;
     }
+    &.active {
+      background-color: var(--tertiary) !important;
+      color: var(--header_background) !important;
+    }
   } 
 }
 
