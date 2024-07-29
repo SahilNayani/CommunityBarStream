@@ -103,7 +103,9 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     font-size: 14px;
     height: auto;
     font-weight: 600;
+    color: var(--primary);
     .icon {
+      color: var(--primary);
       font-size: 20px;
       margin-right: 14px;
     }
