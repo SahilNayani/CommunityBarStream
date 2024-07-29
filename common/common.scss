@@ -42,6 +42,7 @@ html {
   padding: 5px 8px;
   border-radius: var(--mint-border-radius);
   font-size: 12px;
+  color: var(--secondary);
 }
 .d-header-icons {
   li {
@@ -59,6 +60,10 @@ html {
   }
 }
 
+.sidebar-wrapper .sidebar-sections {
+  padding: 16px !important;
+}
+
 body.has-sidebar-page {
   #main-outlet-wrapper.wrap {
     grid-template-columns: var(--left-penal-size) minmax(0, 1fr);
@@ -69,6 +74,7 @@ body.has-sidebar-page {
       height: 100vh;
       width: var(--left-penal-size);
       top: 0;
+      padding: 16px !important;
     }
   }
 }
