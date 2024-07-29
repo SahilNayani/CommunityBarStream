@@ -112,6 +112,9 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     &.active {
       background-color: var(--tertiary) !important;
       color: var(--header_background) !important;
+      .icon {
+        color: var(--header_background) !important;
+      }
     }
   } 
 }
