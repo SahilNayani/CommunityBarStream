@@ -69,8 +69,10 @@ html {
   }
 }
 
-.sidebar-wrapper .sidebar-sections {
-  padding: 16px !important;
+.sidebar-wrapper {
+  .sidebar-sections {
+    padding: 16px !important;
+  }
 }
 
 body.has-sidebar-page {
@@ -83,6 +85,9 @@ body.has-sidebar-page {
       height: 100vh;
       width: var(--left-penal-size);
       top: 0;
+    }
+    & > div {
+      max-width: 100% !important;
     }
   }
 }
