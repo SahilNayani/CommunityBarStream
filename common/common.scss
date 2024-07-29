@@ -16,8 +16,10 @@ html,
 body {
   font-family: "Inter", sans-serif;
   font-size: 14px;
+  box-sizing: border-box;
   * {
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
   }
 }
 html {
@@ -27,7 +29,7 @@ html {
   position: fixed;
   right: 0;
   top: 0;
-  width: calc(100vw - var(--left-penal-size) - 40px - 20px);
+  width: calc(100% - var(--left-penal-size));
   padding: 20px;
 }
 
