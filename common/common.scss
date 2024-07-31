@@ -50,6 +50,9 @@ html {
 body.has-sidebar-page .wrap {
   max-width: 100% !important;
 }
+.d-header>.wrap {
+  max-width: 100% !important;
+}
 
 .d-header {
   height: 4em;
@@ -113,6 +116,10 @@ body.has-sidebar-page {
       max-width: 100% !important;
     }
   }
+}
+#main-outlet-wrapper.wrap {
+  max-width: 100%;
+  padding: 0 20px !important;
 }
 
 body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
