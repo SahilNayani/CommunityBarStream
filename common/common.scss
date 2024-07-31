@@ -30,10 +30,16 @@ html {
     position: fixed;
     right: 0;
     top: 0;
-    width: calc(100% - var(--left-penal-size));
+    width: calc(100%);
     padding: 20px;
   }
-
+}
+.d-header-wrap {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: calc(100% - var(--left-penal-size));
+  padding: 20px;
 }
 
 .d-header {
