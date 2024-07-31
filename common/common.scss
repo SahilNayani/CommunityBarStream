@@ -25,12 +25,22 @@ body {
 html {
   background-color: #F5F3FF;
 }
-.d-header-wrap {
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: calc(100% - var(--left-penal-size));
-  padding: 20px;
+.has-sidebar-page {
+  .d-header {
+    .d-header-wrap {
+      position: fixed;
+      right: 0;
+      top: 0;
+      width: calc(100% - var(--left-penal-size));
+      padding: 20px;
+    }
+    .home-logo-wrapper-outlet {
+      position: fixed;
+      overflow: hidden;
+      left: 20px;
+      top: 32px;
+    }
+  }
 }
 
 .d-header {
@@ -38,10 +48,6 @@ html {
   box-shadow: none;
   border-radius: var(--mint-border-radius);
   .home-logo-wrapper-outlet {
-    position: fixed;
-    overflow: hidden;
-    left: 20px;
-    top: 32px;
     #site-logo {
       height: 34px;
     }
