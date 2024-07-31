@@ -29,14 +29,14 @@ html {
   position: fixed;
   right: 0;
   top: 0;
-  width: calc(100% - var(--left-penal-size));
   padding: 20px;
+  width: calc(100%);
 }
 
 .has-sidebar-page {
   .d-header-wrap {
     left: 0;
-    width: calc(100%);
+    width: calc(100% - var(--left-penal-size));
   }
 }
 
