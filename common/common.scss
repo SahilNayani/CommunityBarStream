@@ -52,6 +52,7 @@ html {
   box-shadow: none;
   border-radius: var(--mint-border-radius);
   .home-logo-wrapper-outlet {
+    transition: .3s;
     #site-logo {
       height: 34px;
     }
