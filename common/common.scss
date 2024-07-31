@@ -37,9 +37,15 @@ html {
   height: 4em;
   box-shadow: none;
   border-radius: var(--mint-border-radius);
-}
-.d-header #site-logo {
-  height: 34px;
+  .home-logo-wrapper-outlet {
+    position: fixed;
+    overflow: hidden;
+    left: 20px;
+    top: 32px;
+    #site-logo {
+      height: 34px;
+    }
+  }
 }
 .header-sidebar-toggle button {
   font-size: 11px;
@@ -73,7 +79,7 @@ html {
 
 .sidebar-wrapper {
   .sidebar-sections {
-    padding: 16px !important;
+    padding: 96px 16px 16px !important;
   }
 }
 
@@ -97,7 +103,7 @@ body.has-sidebar-page {
 body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   padding: 20px !important;
   background: var(--header_background) !important;
-  margin-top: 104px !important;
+  margin-top: 96px !important;
   margin-bottom: 1em !important;
 }
 
