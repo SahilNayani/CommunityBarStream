@@ -37,6 +37,14 @@ html {
   .d-header-wrap {
     width: calc(100% - var(--left-penal-size));
   }
+  .d-header {
+    .home-logo-wrapper-outlet {
+      position: fixed;
+      overflow: hidden;
+      left: 20px;
+      top: 32px;
+    }
+  }
 }
 
 .d-header {
@@ -44,10 +52,6 @@ html {
   box-shadow: none;
   border-radius: var(--mint-border-radius);
   .home-logo-wrapper-outlet {
-    position: fixed;
-    overflow: hidden;
-    left: 20px;
-    top: 32px;
     #site-logo {
       height: 34px;
     }
