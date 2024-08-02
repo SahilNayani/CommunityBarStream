@@ -32,7 +32,7 @@ html {
   padding: 20px;
   width: calc(100%);
   margin-left: auto;
-  transition: .5s;
+  transition: .3s;
 }
 .d-header {
   .home-logo-wrapper-outlet {
@@ -59,11 +59,11 @@ html {
 
 body.has-sidebar-page .wrap {
   max-width: 100% !important;
-  transition: .5s;
+  transition: .3s;
 }
 .d-header>.wrap {
   max-width: 100% !important;
-  transition: .5s;
+  transition: .3s;
 }
 
 .d-header {
