@@ -167,12 +167,17 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 .sidebar-section-wrapper {
   .sidebar-section-header-wrapper {
     padding: 4px;
-    border-radius:  var(--mint-border-radius);
     outline: none !important;
     font-size: 14px;
     height: auto;
     font-weight: 600;
     color: var(--primary);
+    .btn {
+      font-weight: 600;
+      &:hover {
+        color: var(--primary);
+      }
+    }
     .icon {
       color: var(--primary);
       font-size: 20px;
