@@ -158,6 +158,11 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet,
   background: var(--header_background) !important;
   margin-top: 96px !important;
   margin-bottom: 1em !important;
+  border-radius: var(--mint-border-radius);
+}
+
+html.has-full-page-chat body #main-outlet .full-page-chat {
+  border-radius: var(--mint-border-radius);
 }
 
 .sidebar-wrapper {
@@ -535,13 +540,8 @@ a {
   }
 }
 
-html.has-full-page-chat body #main-outlet .full-page-chat {
-  border-radius: 12px;
-}
-
 .c-navbar-container {
-  border-radius: 12px;
-
+  border-radius: var(--mint-border-radius);
 }
 
 .sidebar-section-link-wrapper .sidebar-section-link.active {
