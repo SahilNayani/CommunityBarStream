@@ -554,13 +554,16 @@ html.has-full-page-chat body #main-outlet .full-page-chat {
 .menu-panel .categories-link:focus {
   background-color: var(--tertiary-low);
 }
-
+.btn {
+  border-radius: var(--mint-border-radius);
+  font-size: 14px !important;
+}
 .btn-default {
   color: var(--secondary);
   background: var(--tertiary);
   transition: all 0.3s linear;
   border-radius: var(--mint-border-radius);
-  text-transform: uppercase;
+  // text-transform: uppercase;
   border: 0 none;
   padding: 10px 15px;
   font-size: 14px !important;
