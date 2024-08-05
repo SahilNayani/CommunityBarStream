@@ -77,9 +77,6 @@ html {
     padding: 14px;
   }
 // }
-.discourse-no-touch .btn:not(.btn-flat):hover .fa, .discourse-no-touch .btn:not(.btn-flat).btn-hover .fa {
-  color: var(--tertiary) !important;
-}
 .sidebar-footer-wrapper {
   border: 0 !important;
 }
@@ -250,6 +247,9 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
           }
         }
       }
+    }
+    .discourse-no-touch .btn:not(.btn-flat):hover .fa, .discourse-no-touch .btn:not(.btn-flat).btn-hover .fa {
+      color: var(--tertiary) !important;
     }
   }
 }
