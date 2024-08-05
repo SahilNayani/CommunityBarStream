@@ -580,7 +580,13 @@ html.has-full-page-chat body #main-outlet .full-page-chat {
 .discourse-no-touch .btn-danger:hover {
   background: var(--danger-hover);
 }
-
+.d-modal__header .modal-close {
+  &:hover {
+    .d-icon {
+      color: var(--tertiary) !important;
+    }
+  }
+}
 .create {
   border-radius: var(--mint-border-radius);
 }
