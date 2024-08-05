@@ -55,8 +55,8 @@ html {
         left: 0px;
         top: 0px;
         height: auto;
-        
-        padding: 32px 20px;
+        width: var(--left-penal-size);
+        padding: 32px 20px 15px;
         background: var(--header_background);
       }
     }
