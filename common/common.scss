@@ -69,6 +69,9 @@ html {
     font-weight: 500;
     color: var(--primary);
   }
+  .d-date-time-input {
+    border: 0 !important;
+  }
   .select-kit .multi-select-header,
   input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color] {
     font-size: 12px !important;
@@ -486,7 +489,9 @@ a {
     border: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
   }
-
+  .d-icon {
+    color: currentColor !important;
+  }
 
 }
 
@@ -626,6 +631,9 @@ a:hover {
   .nav-pills>li a.active {
     background: var(--tertiary);
     color: var(--secondary);
+    .d-icon {
+      color: var(--secondary);
+    }
   }
 
   .btn-primary {
