@@ -207,7 +207,6 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
         color: var(--primary) !important;
       }
       &:hover {
-        margin-right: 0;
         background: transparent !important;
         .d-icon {
           color: var(--tertiary) !important;
@@ -216,6 +215,9 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     }
     &:hover {
       background: transparent !important;
+      .sidebar-section-header-button {
+        margin-right: 0;
+      }
     }
     .sidebar-section-header-caret {
       color: var(--primary) !important;
@@ -561,7 +563,7 @@ html.has-full-page-chat body #main-outlet .full-page-chat {
   text-transform: uppercase;
   border: 0 none;
   padding: 10px 15px;
-
+  font-size: 14px !important;
   .fa {
     color: currentColor;
   }
