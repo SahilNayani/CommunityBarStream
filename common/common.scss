@@ -180,7 +180,9 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
       color: var(--primary) !important;
       &:hover {
         background: transparent !important;
-        color: var(--tertiary) !important;
+        .d-icon {
+          color: var(--tertiary) !important;
+        }
       }
     }
     &:hover {
