@@ -29,10 +29,13 @@ html {
   position: fixed;
   right: 0;
   top: 0;
-  padding: 20px;
+  padding: 10px;
   width: calc(100%);
   margin-left: auto;
   transition: .3s;
+  @media (min-width: 768px) {
+    padding: 20px;
+  }
 }
 .d-header {
   .home-logo-wrapper-outlet {
@@ -172,10 +175,13 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     height: auto;
     font-weight: 600;
     color: var(--primary);
+    .sidebar-section-header-caret {
+      color: var(--primary) !important;
+    }
     .btn {
       font-weight: 600;
       &:hover {
-        color: var(--primary);
+        color: var(--primary) !important;
       }
     }
     .icon {
