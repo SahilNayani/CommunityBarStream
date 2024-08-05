@@ -175,8 +175,22 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     height: auto;
     font-weight: 600;
     color: var(--primary);
+    .sidebar-section-header-button {
+      opacity: 1 !important;
+      &:hover {
+        background: transparent !important;
+      }
+    }
+    &:hover {
+      background: transparent !important;
+    }
     .sidebar-section-header-caret {
       color: var(--primary) !important;
+      .d-icon {
+        &:hover {
+          color: var(--primary) !important;
+        }
+      }
     }
     .btn {
       font-weight: 600;
