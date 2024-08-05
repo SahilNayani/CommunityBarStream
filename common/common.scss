@@ -472,6 +472,7 @@ a {
 
 .nav-pills li a {
   border-radius: var(--mint-border-radius);
+  border: 1px dashed transparent;
 
   &:hover {
     border-radius: var(--mint-border-radius);
