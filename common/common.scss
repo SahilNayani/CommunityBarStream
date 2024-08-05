@@ -473,6 +473,7 @@ a {
 .nav-pills li a {
   border-radius: var(--mint-border-radius);
   border: 1px dashed transparent;
+  overflow: hidden;
 
   &:hover {
     border-radius: var(--mint-border-radius);
@@ -487,8 +488,7 @@ a {
     transition: all 0.3s linear;
     background: var(--mint-color-mint);
     color: var(--secondary);
-    border: 1px solid rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(0, 0, 0);
+    border: 1px solid var(--mint-color-mint);
   }
   .d-icon {
     color: currentColor !important;
