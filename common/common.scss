@@ -177,8 +177,10 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     color: var(--primary);
     .sidebar-section-header-button {
       opacity: 1 !important;
+      color: var(--primary) !important;
       &:hover {
         background: transparent !important;
+        color: var(--tertiary) !important;
       }
     }
     &:hover {
@@ -187,15 +189,20 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     .sidebar-section-header-caret {
       color: var(--primary) !important;
       .d-icon {
+        color: var(--primary) !important;
         &:hover {
-          color: var(--primary) !important;
+          color: var(--tertiary) !important;
         }
       }
     }
     .btn {
       font-weight: 600;
+      color: var(--primary) !important;
       &:hover {
-        color: var(--primary) !important;
+        color: var(--tertiary) !important; 
+        .d-icon {
+          color: var(--tertiary) !important; 
+        }
       }
     }
     .icon {
