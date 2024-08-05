@@ -175,6 +175,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
     height: auto;
     font-weight: 600;
     color: var(--primary);
+    overflow: hidden;
     .sidebar-section-header-button {
       opacity: 1 !important;
       margin-right: -30px;
